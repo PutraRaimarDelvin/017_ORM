@@ -1,0 +1,30 @@
+{
+  "name": "praktikum4",
+  "version": "1.0.0",
+  "description": "Praktikum 4 - Express, Sequelize, MySQL ORM",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "sequelize",
+    "mysql2",
+    "orm",
+    "nodejs"
+  ],
+  "author": "Nama Kamu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.3",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "sequelize-cli": "^6.6.3"
+  }
+}
